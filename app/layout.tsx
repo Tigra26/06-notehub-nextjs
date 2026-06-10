@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import "modern-normalize/modern-normalize.css";
 import "./globals.css";
 import TanStackProvider from "@/components/TanStackProvider/TanStackProvider";
 import "react-toastify/dist/ReactToastify.css";
