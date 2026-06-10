@@ -5,6 +5,8 @@ import TanStackProvider from "@/components/TanStackProvider/TanStackProvider";
 import "react-toastify/dist/ReactToastify.css";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
+import "react-toastify/dist/ReactToastify.css";
+import ToastProvider from "@/components/ToastProvider/ToastProvider";
 
 export const metadata: Metadata = {
   title: "NoteHub",
@@ -24,6 +26,7 @@ export default function RootLayout({
           {children}
           <Footer />
         </TanStackProvider>
+        <ToastProvider />
       </body>
     </html>
   );
